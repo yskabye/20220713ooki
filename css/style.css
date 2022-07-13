@@ -1,0 +1,94 @@
+.body{
+  padding: 0px 10px;
+}
+
+.body__tle{
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.body__content{
+  padding: 5px 5px;
+}
+
+.body__content:last-child {
+  padding: 5px 5px;
+  margin-top: -20px;
+}
+
+.body__content-tle {
+  font-size: 18px;
+  margin: 15px 0 ;
+}
+
+.body__content-line{
+  font-size: 12px ;
+  line-height: 17px;
+}
+
+.body__content-line--bold {
+    font-weight: bold;
+}
+
+.body__content-img{
+  width:100%;
+  padding: 2px 0;
+}
+
+.body__content-img img{
+  width: 100%;
+}
+
+.body__content-memo{
+  font-size: 14px;
+  font-weight: 700;
+  padding: 15px 0 ;
+}
+
+/*.body__content-form{
+}*/
+
+.body__content-inp{
+  padding: 2px 0 2px 5px;
+}
+
+.body__content-inp label{
+  color: #101010;
+  font-weight: 700;
+  text-align: center;
+  width: 85px;
+  font-size: 12px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.body__content-inp:nth-of-type(4) label{
+  margin-top: -145px;
+  height: 80px;
+  padding-top: 70px ;
+}
+
+.body__content-inp input, select{
+  border: 1px #b0b0b0 solid ;
+  border-radius: 3px ;
+  box-shadow: 1px 1px #e0e0e0 ;
+  font-size: 11px;
+}
+
+.body__content-inp textarea {
+  border: 1px #b0b0b0 solid;
+  box-shadow: 1px 1px #e0e0e0;
+  border-radius: 3px;
+  width: 175px;
+  height: 125px;
+  font-size: 11px;
+}
+
+.body__content-inp button {
+  border: 1px #b0b0b0 solid;
+  border-radius: 3px;
+  font-size: 10px;
+  padding: 2px 7px;
+  color: #101010;
+}
