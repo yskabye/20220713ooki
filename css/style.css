@@ -61,14 +61,7 @@
   text-align: center;
   width: 90px;
   font-size: 12px;
-  vertical-align: middle;
   display: inline-block;
-}
-
-.body__content-inp:nth-of-type(4) label{
-  display: inline ;
-  vertical-align: middle ;
-  width: 90px;
 }
 
 .body__content-inp input, select{
